@@ -12,14 +12,17 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         private Vector3 m_CamForward;             // The current forward direction of the camera
         private Vector3 m_Move;
         private bool m_Jump;                      // the world-relative desired move direction, calculated from the camForward and user input.
+        [SerializeField] float cameraDistance;
+        [SerializeField] float cameraHeight;
+        Vector3 cameraOffset;
 
-        
         private void Start()
         {
             // get the transform of the main camera
             if (Camera.main != null)
             {
                 m_Cam = Camera.main.transform;
+                cameraOffset = new Vector3(0f, cameraHeight, -cameraDistance);
             }
             else
             {
@@ -30,6 +33,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
             // get the third person character ( this should never be null due to require component )
             m_Character = GetComponent<ThirdPersonCharacter>();
+            MoveCamera();
         }
 
 
@@ -39,9 +43,16 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             {
                 m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
             }
+            MoveCamera();
         }
 
-
+        void MoveCamera()
+        {
+            m_Cam.position = transform.position;
+            m_Cam.rotation = transform.rotation;
+            m_Cam.Translate(cameraOffset);
+            m_Cam.LookAt(transform);
+        }
         // Fixed update is called in sync with physics
         private void FixedUpdate()
         {
