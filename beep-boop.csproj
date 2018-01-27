@@ -301,8 +301,6 @@
     <Compile Include="Assets\Scripts\UI\UIDirectionControl.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Fonts\Bowlby_One\OFL.txt" />
-    <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Standard Assets\Network\Instruction.txt" />
