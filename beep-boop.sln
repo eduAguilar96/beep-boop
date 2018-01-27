@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "beep-boop.Plugins", "beep-boop.Plugins.csproj", "{F7A9E0FF-45AF-D5DA-CFC9-8B801E91BF79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "beep-boop", "beep-boop.csproj", "{079A54EB-6DBA-A16C-86C3-E37A76CBB269}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "beep-boop.Editor.Plugins", "beep-boop.Editor.Plugins.csproj", "{92540C02-F823-4889-3152-81FD15240120}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7A9E0FF-45AF-D5DA-CFC9-8B801E91BF79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7A9E0FF-45AF-D5DA-CFC9-8B801E91BF79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7A9E0FF-45AF-D5DA-CFC9-8B801E91BF79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7A9E0FF-45AF-D5DA-CFC9-8B801E91BF79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{079A54EB-6DBA-A16C-86C3-E37A76CBB269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{079A54EB-6DBA-A16C-86C3-E37A76CBB269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{079A54EB-6DBA-A16C-86C3-E37A76CBB269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{079A54EB-6DBA-A16C-86C3-E37A76CBB269}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92540C02-F823-4889-3152-81FD15240120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92540C02-F823-4889-3152-81FD15240120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92540C02-F823-4889-3152-81FD15240120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92540C02-F823-4889-3152-81FD15240120}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
