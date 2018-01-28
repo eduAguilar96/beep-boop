@@ -748,6 +748,9 @@ GameObject:
   - component: {fileID: 136895668127953360}
   - component: {fileID: 114162143757510852}
   - component: {fileID: 114159157404440330}
+  - component: {fileID: 114345349278943656}
+  - component: {fileID: 114712491127154572}
+  - component: {fileID: 114016030960147274}
   m_Layer: 0
   m_Name: ThirdPersonController
   m_TagString: Untagged
@@ -2560,6 +2563,27 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114016030960147274
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1534965861000942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 3
+  m_SendInterval: 0.1
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 1
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 5
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 1
 --- !u!114 &114159157404440330
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2590,6 +2614,57 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 521b611700410be45810047f0a74e899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114345349278943656
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1534965861000942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 79
+    i1: 117
+    i2: 83
+    i3: 63
+    i4: 169
+    i5: 203
+    i6: 237
+    i7: 132
+    i8: 137
+    i9: 33
+    i10: 242
+    i11: 66
+    i12: 141
+    i13: 42
+    i14: 198
+    i15: 205
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1
+--- !u!114 &114712491127154572
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1534965861000942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1590678366, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Animator: {fileID: 95760971983755762}
+  m_ParameterSendBits: 47
+  param0: 
+  param1: 
+  param2: 
+  param3: 
+  param4: 
+  param5: 
 --- !u!124 &124950705557851658
 Behaviour:
   m_ObjectHideFlags: 1
