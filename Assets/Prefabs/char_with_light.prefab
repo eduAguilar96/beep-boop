@@ -300,6 +300,8 @@ GameObject:
   - component: {fileID: 114518641306654622}
   - component: {fileID: 114706872725154346}
   - component: {fileID: 114955882054186156}
+  - component: {fileID: 114763360034270536}
+  - component: {fileID: 114975835665940620}
   m_Layer: 0
   m_Name: char_with_light
   m_TagString: Player
@@ -1155,7 +1157,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1331849028689480}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 2.69}
+  m_LocalPosition: {x: 0, y: 0, z: 25.13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4444557354797136}
@@ -2206,7 +2208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 4520192913415764}
-  turnSmoothing: 0.06
+  turnSmoothing: 1
   sprintFOV: 100
   sprintButton: Sprint
 --- !u!114 &114515002108293212
@@ -2265,6 +2267,38 @@ MonoBehaviour:
   aimTurnSmoothing: 0.25
   aimPivotOffset: {x: 0.5, y: 1.2, z: 0}
   aimCamOffset: {x: 0, y: 0.4, z: -0.7}
+--- !u!114 &114763360034270536
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1331849028689480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 193
+    i1: 234
+    i2: 218
+    i3: 24
+    i4: 6
+    i5: 121
+    i6: 101
+    i7: 212
+    i8: 123
+    i9: 78
+    i10: 2
+    i11: 49
+    i12: 177
+    i13: 98
+    i14: 243
+    i15: 29
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1
 --- !u!114 &114955882054186156
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2280,6 +2314,27 @@ MonoBehaviour:
   flySpeed: 4
   sprintFactor: 2
   flyMaxVerticalAngle: 60
+--- !u!114 &114975835665940620
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1331849028689480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 3
+  m_SendInterval: 0.1
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 1
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 5
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 1
 --- !u!119 &119288802857298684
 Projector:
   m_ObjectHideFlags: 1
