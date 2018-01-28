@@ -29,6 +29,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             // get the transform of the main camera
             if (Camera.main != null)
             {
+                Debug.Log("Si hay main camera");
                 m_Cam = Camera.main.transform;
                 cameraOffset = new Vector3(0f, cameraHeight, -cameraDistance);
             }
@@ -56,10 +57,13 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
         void MoveCamera()
         {
-            m_Cam.position = transform.position;
-            m_Cam.rotation = transform.rotation;
-            m_Cam.Translate(cameraOffset);
-            m_Cam.LookAt(focus);
+            if (m_Cam != null)
+            {
+                m_Cam.position = transform.position;
+                m_Cam.rotation = transform.rotation;
+                m_Cam.Translate(cameraOffset);
+                m_Cam.LookAt(focus);
+            }
         }
         // Fixed update is called in sync with physics
         private void FixedUpdate()
