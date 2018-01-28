@@ -1,8 +1,15 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/SampleScenes/Textures.meta
 guid: 086f32566457e9b4399348747e15d7a8
 folderAsset: yes
 timeCreated: 1436977288
 licenseType: Store
+=======
+guid: c75a382e93bb0f541af90c44e43bb008
+folderAsset: yes
+timeCreated: 1517112924
+licenseType: Free
+>>>>>>> e84e05ee1a2239ea24edb217752cb1c87b8d4b3c:Assets/Textures.meta
 DefaultImporter:
   userData: 
   assetBundleName: 

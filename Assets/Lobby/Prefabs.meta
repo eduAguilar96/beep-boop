@@ -1,8 +1,13 @@
 fileFormatVersion: 2
 guid: e66249d5267b56c4a8f6f976c79b5900
 folderAsset: yes
+<<<<<<< HEAD:Assets/Lobby/Prefabs.meta
 timeCreated: 1436977288
 licenseType: Store
+=======
+timeCreated: 1517065908
+licenseType: Free
+>>>>>>> e84e05ee1a2239ea24edb217752cb1c87b8d4b3c:Assets/Prefabs.meta
 DefaultImporter:
   userData: 
   assetBundleName: 
