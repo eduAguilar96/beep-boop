@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 11b2ce1f9dc2e2c47b27dfa875ac7a1b
-timeCreated: 1517142319
+guid: 1c113ee4e28bc8d4392e7940b6973841
+timeCreated: 1517169723
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -91,17 +91,16 @@ ModelImporter:
     4300022: mesh1899049755
     4300024: mesh916749142
     7400000: Default Take
-    7400002: Idle
-    7400004: Idle_2
-    7400006: Jump2
-    7400008: Jump3
-    7400010: Jump3_001
-    7400012: Jump3_002
-    7400014: Jump3_003
-    7400016: Run
-    7400018: Run_001
+    7400002: ApagadoEn
+    7400004: Idle
+    7400006: Idle_2
+    7400008: Jump2
+    7400010: Jump3
+    7400012: Jump3_001
+    7400014: Jump3_002
+    7400016: Jump3_003
+    7400018: Run
     7400020: Walk
-    7400022: Walk_001
     9500000: //RootNode
     13700000: mesh124652886
     13700002: mesh1455268195
@@ -146,7 +145,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 250
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importVisibility: 1

@@ -11,6 +11,7 @@ public class AlOrigen : NetworkBehaviour
 
     // Use this for initialization
     void Start () {
+        Cursor.visible = true;
         string model = UnityEngine.XR.XRDevice.model != null ? UnityEngine.XR.XRDevice.model : "";
         if (model.IndexOf("Rift") >= 0)
         {
